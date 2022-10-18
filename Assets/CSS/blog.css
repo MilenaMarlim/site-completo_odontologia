@@ -46,8 +46,14 @@
 }
 
 .logo {
-    width: 330px;
-    padding-bottom: 50px;
+    width: 50%;
+    padding-left: 6%;
+}
+
+.left-area-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .initial_section {
