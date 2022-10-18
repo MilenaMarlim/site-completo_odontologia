@@ -41,7 +41,7 @@
 
 .header {
     height: 520px;
-    background-color: rgba(6, 4, 32, 0.6);
+    background-color: #070D48;
     color: #FFFFFF;
     margin-bottom: 200px;
 }
@@ -188,8 +188,8 @@
     text-align: center;
 }
 
-.carrossel .seta img{
-    border: 2px solid #161F75 ;
+.carrossel .seta img {
+    border: 2px solid #161F75;
     border-radius: 200px;
     padding: 15px;
 }
@@ -215,6 +215,42 @@
     height: 50px;
     border-radius: 4px;
     font-weight: 500;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 2%;
+}
+
+.testimonial_image img {
+    width: 413px;
+}
+
+.testimonial .testimonial_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.testimonial .testimonial_info h2 {
+    font-size: 52px;
+    font-weight: 700;
+    width: 50%;
+}
+
+
+.testimonial_info p{
+    width: 40%;
+}
+
+.testimonial .testimonial_info h3 {
+    font-size: 21px;
+    font-weight: 400;
+    width: 40%;
 }
 
 .blog {
