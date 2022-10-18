@@ -217,40 +217,43 @@
     font-weight: 500;
 }
 
+.testimonial_image img {
+    width: 400px;
+}
+
 .testimonial {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2% 2%;
-}
-
-.testimonial_image img {
-    width: 413px;
 }
 
 .testimonial .testimonial_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     text-align: left;
+    /* margin-left: 5%; */
+    width: 80%;
 }
 
 .testimonial .testimonial_info h2 {
     font-size: 52px;
     font-weight: 700;
-    width: 50%;
 }
 
-
-.testimonial_info p{
+.testimonial_info p {
     width: 40%;
+    padding-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .testimonial .testimonial_info h3 {
-    font-size: 21px;
-    font-weight: 400;
-    width: 40%;
+    padding-bottom: 2%;
+    width: 80%;
+    margin: 0;
+}
+
+.testimonial_info .name {
+    font-weight: 700;
+    font-size: 30px;
+    width: 2%;
 }
 
 .blog {
