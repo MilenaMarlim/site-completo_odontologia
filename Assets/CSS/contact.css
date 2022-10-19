@@ -1,0 +1,176 @@
+.hamburguer {
+    background-color: white;
+    color: white;
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    width: 30px;
+    height: 2px;
+    transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before,
+.hamburguer:after {
+    background-color: #ffffff;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+.hamburguer:before {
+    top: -10px;
+}
+
+.hamburguer:after {
+    bottom: -10px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.redes_sociais img {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header {
+    height: 200px;
+    background-color: #070D48;
+    color: #FFFFFF;
+}
+
+.logo {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.left-area-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial_section {
+    padding: 5%;
+}
+
+.initial_section h2 {
+    color: #161F75;
+    font-size: 52px;
+    padding-bottom: 2%;
+}
+
+.initial_section {
+    padding: 5%;
+}
+
+.main_area {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F1F1F1CC;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.form {
+    width: 30%;
+}
+
+.form input,
+textarea {
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid #CED4DA;
+    padding: 4%;
+    margin-bottom: 2%;
+}
+
+.form textarea {
+    height: 30%;
+}
+
+.button_input {
+    background-color: #167558;
+    border-radius: 30px;
+    color: #FAFAFA;
+}
+
+.info {
+
+    text-align: left;
+}
+
+.info .address,
+.info .number_contact {
+    color: #333333;
+    text-align: left;
+}
+
+.number_contact {
+    border-top: 2px solid #CACACA;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number_contact h3 {
+    padding: 5% 0 5% 0;
+}
+
+.address p {
+    padding-bottom: 5%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #010639;
+    color: #ffffff;
+    padding-bottom: 2%;
+}
+
+.footer-info {
+    background-color: #070D48;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.footer-topics {
+    color: #00F0FF;
+    display: flex;
+    align-items: center;
+}
+
+.footer-topics h3 {
+    cursor: pointer;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.address {
+    color: #ffffff;
+    text-align: right;
+    width: 96%;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer .logo img {
+    width: 30%;
+    padding-left: 0;
+}
+
+.footer .developer {
+    text-align: center;
+}
