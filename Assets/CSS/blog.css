@@ -198,10 +198,8 @@
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #010639;
     color: #ffffff;
-    text-align: center;
     padding-bottom: 2%;
 }
 
@@ -215,25 +213,31 @@
 
 .footer-topics {
     color: #00F0FF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.topics-address {
-    color: #ffffff;
-    font-size: 13px;
-    font-weight: 400;
+.footer-topics h3 {
+    cursor: pointer;
+    font-size: 12px;
+    margin: 8px;
 }
 
 .address {
     color: #ffffff;
+    text-align: right;
+    width: 96%;
 }
 
 .footer p {
     font-size: 12px;
+}
 
+.footer .logo img {
+    width: 30%;
+    padding-left: 0;
+}
+
+.footer .developer {
+    text-align: center;
 }
